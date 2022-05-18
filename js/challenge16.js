@@ -1,13 +1,22 @@
-let numbersArray = [];
-let newNumber= true;
+let numberArray=[];
+let addNumbers="";
 
-while(newNumber){
-    newNumber=prompt('Ingresa un numero');
-    if (newNumber===null){
-        console.log(numbersArray);
-    }else if(newNumber.trim() ===""||isNaN(newNumber)){
-        alert('El numero no es valido');
-    }else{
-        numbersArray.push(parseFloat(newNumber));
-    }
+while((addNumbers!= null)===true){
+addNumbers=prompt("inserta un numero")
+if(isNaN(addNumbers)){
+    alert("solo numeros")
 }
+else{
+    numberArray.push(addNumbers)
+}
+}
+console.log("los numeros ingresados son;", numberArray.join("-"))
+
+
+
+
+
+
+
+
+
