@@ -11,12 +11,3 @@ else{
 }
 }
 console.log("los numeros ingresados son;", numberArray.join("-"))
-
-
-
-
-
-
-
-
-
